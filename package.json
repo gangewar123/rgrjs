@@ -1,0 +1,33 @@
+{
+  "name": "rgrjs",
+  "version": "1.0.0",
+  "description": "Collection of educational resources abot react.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets react,es2015 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gangewar123/rgrjs.git"
+  },
+  "keywords": [
+    "react.js",
+    "GraphQl",
+    "Relay"
+  ],
+  "author": "Kiran Kumar BV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gangewar123/rgrjs/issues"
+  },
+  "homepage": "https://github.com/gangewar123/rgrjs#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
